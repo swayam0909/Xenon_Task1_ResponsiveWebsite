@@ -13,7 +13,7 @@ const Main = () => {
       <div className="App">
         {/* Routes */}
         <Routes>
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/Xenon_Task1_ResponsiveWebsite" element={<LandingPage />} />
           <Route path="/login-signup" element={<App/>}/>
           <Route path="/dashboard" element={<HomePage />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
